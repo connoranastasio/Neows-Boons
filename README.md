@@ -39,10 +39,14 @@
   ```powershell
   $path = "C:\Program Files
   (x86)\Steam\steamapps\common\SlayTheSpire\preferences\STSPlayer"
+```
 
   Change it to your custom location:
+if you installed the game into C:\Games for example, edit the path to be:
 
-  ex: $path = "D:\Games\SlayTheSpire\preferences\STSPlayer" etc etc
+   ```powershell
+   $path = "C:\Games\SlayTheSpire\preferences\STSPlayer" etc etc
+   ```
 
   Any text editor (including Notepad) will work for this.
 
@@ -68,4 +72,4 @@
   License
 
   MIT
-  ```
+  
